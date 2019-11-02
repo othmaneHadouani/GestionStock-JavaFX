@@ -1,0 +1,137 @@
+.mylabel {
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+}
+
+.padd {
+    -fx-padding: 10px;
+}
+
+.barmenu {
+    -fx-pref-height: 112px;
+    -fx-background-color: #03A9F4;
+}
+
+.aside {
+    -fx-background-color: #ecf0f1;
+}
+
+.menu {
+    -fx-background-color: #2196F3;
+}
+
+.scene {
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);*/
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0);
+}
+
+JFXTextField, JFXComboBox {
+    -fx-font-size: 20px;
+}
+
+.myVBox JFXTextField, .myVBox JFXComboBox {
+    -fx-max-width: 600px;
+}
+
+.vBoxsearch JFXTextField {
+    -fx-max-width: 800px;
+}
+
+.menu .header {
+    -fx-font-style: blod;
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-padding: 5;
+    -fx-alignment: center;
+    -fx-pref-width: 250px;
+    -fx-max-height: 25px;
+}
+
+.menu .acc {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-pref-width: 250px;
+    -fx-border-style: solid;
+    -fx-border-color: #2196F3;
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-border-radius: 0px;
+}
+
+.menu .items JFXButton {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 250px;
+    -fx-border-style: solid;
+    -fx-border-color: #2196F3;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+.menu .items JFXButton:hover, .menu JFXButton:hover {
+    -fx-background-color: #218fea;
+    -fx-border-color: white;
+}
+
+.menu .items JFXButton.active, .menu JFXButton.active {
+    -fx-background-color: #217ad5;
+    -fx-border-color: white;
+}
+
+.jfx-tab-pane:top .depth-container .tab-header-area .tab-header-background {
+    -fx-background-color: #f1f1f1;
+}
+
+.jfx-tab-pane:top .depth-container .tab-header-area .tab .tab-label {
+    -fx-text-fill: #03A9F4;
+}
+
+.jfx-tab-pane:top .depth-container .tab-header-area .headers-region .tab-selected-line {
+    -fx-background-color: #03A9F4;
+}
+
+JFXButton:hover {
+    -fx-cursor: hand;
+}
+
+.menu Label, .aside .titre {
+    -fx-font-size: 20px;
+}
+
+.titre {
+    -fx-font-size: 20px;
+}
+
+.vproduit Label {
+    -fx-font-size: 20px;
+
+}
+
+.addButton {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+}
+
+.alert Text {
+    -fx-font-size: 16px;
+    -fx-padding: 10px 10px 5px 10px;
+}
+
+.alert ImageView:hover {
+    -fx-cursor: hand;
+}
+
+JFXTreeTableView * {
+    -fx-alignment: center;
+}
+
+.winBar JFXButton {
+    -fx-padding: 9px;
+    -fx-pref-height: 36px;
+}
+
+.error-label {
+    -fx-font-size: 12px;
+}
